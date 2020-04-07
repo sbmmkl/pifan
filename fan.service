@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/bin/python3 -u llp.py
-WorkingDirectory=/usr/local/bin/
+WorkingDirectory=/usr/local/bin/thearc/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
